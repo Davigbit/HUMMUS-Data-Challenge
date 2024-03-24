@@ -53,7 +53,7 @@ for year in range(2010, 2022):
         coloraxis_colorbar=dict(
             title="Inequality Index",
             tickvals=[min_value, max_value // 2, max_value],
-            ticktext=["No info", "Medium", "High"]
+            ticktext=["Small", "Medium", "High"]
         )
     )
 
